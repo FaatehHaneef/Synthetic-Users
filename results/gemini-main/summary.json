@@ -1,0 +1,174 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.6-flash",
+  "is_fake_data": false,
+  "requests": 356,
+  "keys_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "discards": {},
+  "note": "Simulated participants, not user evidence. Illustrates Hamalainen et al. (CHI '23), does not reproduce it.",
+  "groups": {
+    "default": {
+      "responses": 178,
+      "mentions": 178,
+      "ignored": 0,
+      "distinct": 5,
+      "distinct_per_100": 2.808988764044944,
+      "top_game": "Journey",
+      "top1_share": 92.69662921348315,
+      "top1_low": 87.90669499022053,
+      "top1_high": 95.68253871647806,
+      "top3_share": 97.75280898876404,
+      "entropy_bits": 0.5105216707014545,
+      "mean_words": 114.74719101123596,
+      "comparable": true
+    },
+    "persona": {
+      "responses": 178,
+      "mentions": 178,
+      "ignored": 0,
+      "distinct": 9,
+      "distinct_per_100": 5.056179775280899,
+      "top_game": "Gris",
+      "top1_share": 28.651685393258425,
+      "top1_low": 22.515553943415107,
+      "top1_high": 35.6898292032356,
+      "top3_share": 65.1685393258427,
+      "entropy_bits": 2.581160267309344,
+      "mean_words": 130.7921348314607,
+      "comparable": true
+    }
+  },
+  "top_titles": {
+    "default": [
+      {
+        "key": "journey",
+        "title": "Journey",
+        "count": 165
+      },
+      {
+        "key": "shadow of the colossus",
+        "title": "Shadow of the Colossus",
+        "count": 5
+      },
+      {
+        "key": "gris",
+        "title": "Gris",
+        "count": 4
+      },
+      {
+        "key": "outer wilds",
+        "title": "Outer Wilds",
+        "count": 3
+      },
+      {
+        "key": "what remains of edith finch",
+        "title": "What Remains of Edith Finch",
+        "count": 1
+      }
+    ],
+    "persona": [
+      {
+        "key": "gris",
+        "title": "Gris",
+        "count": 51
+      },
+      {
+        "key": "red dead redemption 2",
+        "title": "Red Dead Redemption 2",
+        "count": 37
+      },
+      {
+        "key": "shadow of the colossus",
+        "title": "Shadow of the Colossus",
+        "count": 28
+      },
+      {
+        "key": "journey",
+        "title": "Journey",
+        "count": 24
+      },
+      {
+        "key": "monument valley",
+        "title": "Monument Valley",
+        "count": 18
+      },
+      {
+        "key": "okami",
+        "title": "Okami",
+        "count": 17
+      },
+      {
+        "key": "abzu",
+        "title": "Abzû",
+        "count": 1
+      },
+      {
+        "key": "genshin impact",
+        "title": "Genshin Impact",
+        "count": 1
+      },
+      {
+        "key": "firewatch",
+        "title": "Firewatch",
+        "count": 1
+      }
+    ]
+  },
+  "paper_baselines": {
+    "Real people": {
+      "mentions": 179,
+      "distinct": 110,
+      "distinct_per_100": 61.452513966480446,
+      "top_game": "The Legend of Zelda: BOTW",
+      "top1_share": 5.58659217877095,
+      "top3_share": 13.40782122905028
+    },
+    "GPT-3 davinci": {
+      "mentions": 171,
+      "distinct": 78,
+      "distinct_per_100": 45.6140350877193,
+      "top_game": "Journey",
+      "top1_share": 25.730994152046783,
+      "top3_share": 37.42690058479532
+    },
+    "GPT-3 text-davinci-002": {
+      "mentions": 181,
+      "distinct": 23,
+      "distinct_per_100": 12.707182320441989,
+      "top_game": "Journey",
+      "top1_share": 83.42541436464089,
+      "top3_share": 87.84530386740332
+    }
+  },
+  "paper_words": {
+    "Real people": 81.38,
+    "GPT-3 davinci": 142.06
+  },
+  "review": {
+    "total": 20,
+    "checked": 20,
+    "inaccurate": 0,
+    "unsure": 4,
+    "not_real_game": 0
+  }
+}
