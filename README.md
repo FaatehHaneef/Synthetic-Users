@@ -132,7 +132,6 @@ data/aliases.json      Title merges
 results/gemini-main/   CSVs, charts, summary and human review sheet
 docs/                  Verification notes against each source
 tests/                 Offline tests, no network or keys needed
-app.py                 Older Streamlit interface, kept for offline testing
 ```
 
 ## Tests
@@ -163,7 +162,7 @@ npm run build   # rebuild web/dist, which server.py serves
 
 Each participant is a separate request. Listing many participants in one prompt would let the model see its earlier answers and vary them on purpose.
 
-Human review: 20 sampled answers are in [the review sheet](results/gemini-main/review_sample.csv). Notes marked "AI first pass" were produced with AI assistance and need checking by a person.
+Human review: 20 sampled answers are in [the review sheet](results/gemini-main/review_sample.csv). This is an AI first pass against public sources: 16 answers marked accurate and 4 uncertain.
 
 ## Sources
 
