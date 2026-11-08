@@ -1,0 +1,27 @@
+# Secrets and local state
+.env
+data/key_state.json
+data/quota_log.jsonl
+
+# Dependencies and caches
+web/node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local test runs
+data/runs/fake-*.jsonl
+data/runs/pytest-*.jsonl
+results/fake-*/
+results/pytest-*/
+
+# Course and submission files, not part of the code
+CS3014_ToolTalks_Brief.pdf
+21st dev components.md
+deliverables/
+docs/src/
+docs/script.md
+docs/gamma-prompt.md
+docs/claude-web-slides-prompt.md
+*.pptx
+Can-an-AI-Crowd-*.pdf
